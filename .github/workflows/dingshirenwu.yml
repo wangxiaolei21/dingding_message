@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
   schedule:
     # IMPORTANT: Set cron job in UTC timezone
-    - cron:  '45 1,7 * * *'
+    - cron:  '45 1,8 * * *'
 
 jobs:
   build:
