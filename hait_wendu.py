@@ -62,7 +62,7 @@ def make_message(token:str):
     send_message(jg, 0)
  
 if __name__=='__main__':
-    yonghuming = "-----@qq.com"
-    mima = "-----"
+    yonghuming = "zhenwenw@qq.com"
+    mima = "jkxjkx309"
     token=get_token(yonghuming,mima)
     make_message(token)
