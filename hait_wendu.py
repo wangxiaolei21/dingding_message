@@ -60,7 +60,7 @@ def make_message(token: str):
         for i in jieguo['feeds']:
             print(i['created_at'].split('+')[0].replace('T', ' '), " %.1f℃" % i['field1'])
             wendu = "%.1f℃" % i['field1']
-            jg = "温度：%s (%s)" % (wendu, jieshu)
+            jg = "教3~309温度：%s (%s)" % (wendu, jieshu)
             print(jg)
     send_message(jg, 0)
 
