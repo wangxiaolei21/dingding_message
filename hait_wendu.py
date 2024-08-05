@@ -52,6 +52,7 @@ def make_message(token: str):
                                                                          "start=" + kaishi + "&timezone=Asia/Shanghai&token_id=" + token
     print(wangzhi)
     jieguo = requests.get(url=wangzhi).json()
+    jg = "未能成功获取到温度数据。 "+jieshu
     if 'error' in jieguo.values():
         print(jieguo['errorCode'] + ":" + jieguo['desp'])
         print('每个小时最多只能获取数据5次')
