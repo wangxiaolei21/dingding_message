@@ -42,7 +42,7 @@ def make_message(token: str):
     tz_utc_8 = timezone(timedelta(hours=8))
     # 获取东8区的当前日期和时间
     now_utc_8 = datetime.now(tz_utc_8)
-    before_15fenzhong = now_utc_8 + timedelta(minutes=-15)
+    before_15fenzhong = now_utc_8 + timedelta(minutes=-25)
 
     # 打印年月日
     jieshu = now_utc_8.strftime('%Y-%m-%d %H:%M:%S')
